@@ -1,0 +1,7 @@
+Article,Category,Name,Price
+1,PC,ATX_housing,1000
+2,AUTO,Timing_belt,1500
+3,Leisure,Tent,4320
+4,Tourism,boots,2100
+5,PC,Video_card,7900
+6,PC,Monitor,4600

@@ -1,0 +1,97 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #5EBA7D;
+}
+
+h2 {
+    color: #7bc0dc;
+}
+
+a {
+    color:#6babc5;
+}
+.container {
+    padding: 20px;
+    border: 2px solid #eee;
+    text-align: center;
+    
+}
+
+.bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.mainNav {
+    font-size: 24px;
+}
+
+.mainNav > li {
+    list-style-type: none;
+    padding: 15px;
+    border: 2px solid skyblue;
+    transition: all .3s ease-in-out;
+}
+
+.mainNav > li:not(:last-child) {
+     border-bottom: none;   
+}
+
+.mainNav > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.mainNav > .active {
+    background-color: skyblue;
+    color: #fff;
+}
+
+.form > p {
+    font-size: 18px;
+}
+
+.form > .btn {
+    font-size: 16px;
+}
+
+form > .file-form {
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+footer > .container {
+    background-color: #eee;
+}
+
+
+/* ANIMATIONS STUFF */
+
+.mainNav > li:hover {
+    cursor: pointer;
+    background-color: #7bc0dc;
+    border-color: #6babc5;
+    transform: scale(1.1);
+}
+
+.mainNav > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 12px 0;
+}
+
